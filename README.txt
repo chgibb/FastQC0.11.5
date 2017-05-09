@@ -1,3 +1,17 @@
+This is a fork of the following: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+The following files have been edited from the originals:
+uk/ac/babraham/FastQC/FastQCApplication.java
+uk/ac/babraham/FastQC/Report/HTMLReportArchive.java
+uk/ac/babraham/FastQC/Modules/ModuleFactory.java
+uk/ac/babraham/FastQC/Analysis/OfflineRunner.java
+fastqc
+
+Some QC tests have been removed. Output archive will be unzipped after being written by
+default.
+
+Perl launch script has been slightly modified to be compatible with Strawberry Perl on Windows.
+
 FastQC - A Quality Control application for FastQ files
 ------------------------------------------------------
 
